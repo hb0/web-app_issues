@@ -1,5 +1,5 @@
 import { createReducer, updateObject } from './utils.js'
-import { Options } from '../components/InfrastructureView.js'
+import { Options } from '../components/infrastructure/InfrastructureView.js'
 
 const initialState = {
   option: Options.All

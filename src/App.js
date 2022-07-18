@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import InfrastructureView from './components/InfrastructureView'
+import DatasetsView from './components/datasets/DatasetsView'
 
 class App extends Component {
   render () {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<InfrastructureView />} />
+          <Route path='/' element={<DatasetsView />} />
         </Routes>
       </BrowserRouter>
     )

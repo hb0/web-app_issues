@@ -4,3 +4,10 @@ export const updateInfrastructureView = (update) => {
     update
   }
 }
+
+export const updateDatasetsView = (update) => {
+  return {
+    type: 'UPDATE_DATASETS_VIEW',
+    update
+  }
+}

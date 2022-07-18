@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { updateInfrastructureView } from '../actions/defaultActions'
+import { updateInfrastructureView } from '../../actions/defaultActions'
 import { Dropdown, Button } from 'react-materialize'
 
 export const Options = {
